@@ -26,6 +26,9 @@ button {
     color: white;
     padding: 10px;
     transition: 0.5s;
+    border: none;
+    margin-bottom: 50px;
+    font-size: 40px;
 }
 
 button:hover {
@@ -37,12 +40,6 @@ button:hover {
 h1 {
     color: rgb(71, 97, 103);
     font-size: 60px;
-}
-
-button {
-    border: none;
-    margin-bottom: 50px;
-    font-size: 40px;
 }
 
 .center {

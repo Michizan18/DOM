@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-h1, input, button {
+h1, button {
     text-align: center;
     margin: 15px 50px 0px 50px;
     align-items: center;
@@ -31,7 +31,7 @@ h1 {
     color: rgb(71, 97, 103);
 }
 
-input, button {
+button {
     border: none;
 }
 
@@ -40,4 +40,11 @@ input, button {
     justify-content: center;  
     align-items: center;  
     height: 100vh;
+}
+
+span {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 26px;
 }

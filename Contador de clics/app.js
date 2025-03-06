@@ -5,5 +5,5 @@ const contadorTexto = document.getElementById('contador');
 
 boton.addEventListener('click', function(){
     contadorClick++;
-    contadorTexto.value = contadorClick;
+    contadorTexto.textContent = contadorClick;
 });

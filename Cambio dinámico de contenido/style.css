@@ -4,9 +4,17 @@
     box-sizing: border-box;
 }
 
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+    background: rgb(57,123,150);
+    background: linear-gradient(0deg, rgba(57,123,150,0.7231267507002801) 0%, rgba(217,218,255,1) 100%);
+}
+
 h1, p, button {
     text-align: center;
-    margin: 15px 50px 0px 50px;
     align-items: center;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
@@ -19,7 +27,6 @@ button {
     background-color:rgb(71, 97, 103);
     color: white;
     padding: 10px;
-    margin-bottom: 50px;
     transition: 0.5s;
 }
 
@@ -34,8 +41,10 @@ h1 {
 }
 
 img {
-    align-items: center;
-    margin: 50px;
-    margin-left: 280px;
     width: 300px;
+    margin: 50px;
+}
+
+.center {
+    text-align: center;
 }

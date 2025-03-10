@@ -9,9 +9,9 @@ cantidadInput.addEventListener("input", function(){
     const cantidad = parseInt(cantidadInput.value);
     const total = cantidad * precioUni;
 
-    if (isNaN(cantidad) || cantidad === "") {
-        totalSpan.textContent = "0";
+    if (isNaN(cantidad) || cantidad < 1) {
+        cantidadInput.value = 1;
     } else {
-        totalSpan.textContent = "" + (total).toFixed(2);
+        totalSpan.textContent = "" + total;
     }
 });

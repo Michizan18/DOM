@@ -12,7 +12,7 @@ body {
     transition: background-color 0.5s, color 0.5s;  
 }
 
-h1, p, button {
+h1, select, option {
     text-align: center;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
@@ -20,34 +20,23 @@ h1, p, button {
     margin: 20px;
 }
 
-button {
-    border-radius: 10px;
-    padding: 10px;
-    transition: 0.5s;
-    border: none;
-    margin-bottom: 50px;
-    font-size: 40px;
-}
-
 h1 {
-    font-size: 60px;
+    font-size: 50px;
+    font-weight: 600;
 }
 
-p {
-    font-size: 35px;
+select {
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+} 
+
+.colores {
+    color: rgb(255, 255, 255);
+
 }
 
-.page {
+.center {
     text-align: center;
-}
-
-.temaClaro {
-    background-color: rgb(58, 85, 109);
-    color: rgb(51, 51, 80);
-}
-
-.temaOscuro {
-    background: rgb(20,57,73);
-    background: linear-gradient(0deg, rgba(20,57,73,0.7231267507002801) 0%, rgba(61,61,79,1) 100%);
-    color: aliceblue;
 }

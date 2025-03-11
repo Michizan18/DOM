@@ -7,12 +7,12 @@
 body {
     justify-content: center; 
     align-items: center; 
-    height: 1000px;
+    height: 100vh;
     background: rgb(57,123,150);
     background: linear-gradient(0deg, rgba(57,123,150,0.7231267507002801) 0%, rgba(217,218,255,1) 100%);
 }
 
-h1, span, p, li{
+h1, span, input, p {
     text-align: center;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
@@ -22,22 +22,9 @@ h1, span, p, li{
 h1 {
     color: rgb(71, 97, 103);
     font-size: 60px;
-    margin-top: 50px;
 }
 
-li {
-    color: white;
-    list-style: none;
-    font-size: 35px;
-    text-align: center;
-}
-
-ul {
-    margin-top: 50px;
-    margin-right: 45px;
-}
-
-span, p{
+span, input, p{
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-style: normal;
@@ -46,23 +33,14 @@ span, p{
     margin-top: 50px;
 }
 
+.center {
+    text-align: center;
+}
 
-button {
-    border-radius: 5px;
-    background-color:rgb(71, 97, 103);
-    color: white;
-    padding: 10px;
-    transition: 0.5s;
+input {
     border: none;
     font-size: 20px;
-    margin-left: 20px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-}
-
-button:hover {
-    cursor: pointer;
-    color: rgb(71, 97, 103);
-    background-color: aliceblue;
-}
+    padding: 10px;
+    border-radius: 10px;
+    width: 500px;
+} 

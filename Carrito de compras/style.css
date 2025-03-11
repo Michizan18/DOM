@@ -5,21 +5,47 @@
 }
 
 body {
-    display: flex;
     justify-content: center; 
     align-items: center; 
-    height: 100vh;
+    height: 1000px;
     background: rgb(57,123,150);
-    background: linear-gradient(0deg, rgba(57,123,150,0.7231267507002801) 0%, rgba(217,218,255,1) 100%); 
+    background: linear-gradient(0deg, rgba(57,123,150,0.7231267507002801) 0%, rgba(217,218,255,1) 100%);
 }
 
-h1, p, button {
+h1, h2, span, p, li{
     text-align: center;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
-    margin: 20px;
 }
+
+h1 {
+    color: rgb(71, 97, 103);
+    font-size: 60px;
+    margin-top: 50px;
+}
+
+li {
+    color: white;
+    list-style: none;
+    font-size: 35px;
+    text-align: center;
+}
+
+ul {
+    margin-top: 50px;
+    margin-right: 45px;
+}
+
+span, p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+    color: rgb(24, 34, 36);
+    margin-top: 50px;
+}
+
 
 button {
     border-radius: 5px;
@@ -29,6 +55,7 @@ button {
     transition: 0.5s;
     border: none;
     font-size: 20px;
+    margin-left: 20px;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
@@ -38,18 +65,4 @@ button:hover {
     cursor: pointer;
     color: rgb(71, 97, 103);
     background-color: aliceblue;
-}
-
-h1 {
-    text-align: center;
-    align-items: center;
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 50px;
-    color: rgba(24, 67, 84, 0.723);
-}
-
-image {
-    width: 400px;
 }

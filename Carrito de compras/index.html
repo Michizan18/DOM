@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de compras</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="productos">
+        <div class="producto">
+            <img src="perrito.webp" width="150px">
+            <span>Perrito caliente - Precio: $12.000</span>
+            <button class="btnAgregar" data-nombre="Perrito caliente" data-precio="12000">Agregar al carrito</button>
+        </div>
+        <div class="producto">
+            <img src="hamburguesa.png" width="150px">
+            <span>Hamburguesa grande - Precio: $15.000</span>
+            <button class="btnAgregar" data-nombre="Hamburguesa" data-precio="15000">Agregar al carrito</button>
+        </div>
+        <div class="producto">
+            <img src="jugo.webp" width="150px">
+            <span>Jugo hit tropical - Precio: $5.000</span>
+            <button class="btnAgregar" data-nombre="Jugo" data-precio="5000">Agregar al carrito</button>
+        </div>
+    </div>
+    <h1>Carrito de compras 🛒</h1>
+    <ul id="agregados"></ul>
+    <p>Total: $<span id="total">0</span></p>
+    <script src="app.js"></script>
+</body>
+</html>
